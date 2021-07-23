@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+#banner{
+    background: linear-gradient(rgba(0,0,0,0.5),#009688),url(static/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.bannertext{
+    text-align: center;
+    color: white;
+    padding-top: 180px;
+}
+.bannertext h1{
+    font-size: 130px;
+    font-family: 'Lobster', cursive;
+}
+.bannertext p{
+    font-size: 20px;
+    font-style: italic;
+}
